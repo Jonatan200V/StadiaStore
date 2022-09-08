@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+li{
+    list-style: none;
+}
+a{
+    color:inherit;
+    font-size: inherit;
+    text-decoration: none;
+    display: block;
+}
+p a{
+    display: inline;
+}
+img,video,svg{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    object-fit: cover;
+    object-position: center center;
+}
+iframe{
+    width: 100%;
+    display: flex;
+    min-height: 400px;
+}
+h1,h2,h3,h4,h5,h6, strong{
+    font-size: inherit;
+    font-weight: inherit;
+
+}
+html{
+    scroll-behavior: smooth;
+}
